@@ -1,0 +1,122 @@
+@font-face {
+	font-family: netflix-sans-regular;
+	src: url(../fonts/NetflixSans-Regular.woff2);
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflox-y: hidden;
+}
+
+.root {
+	background-size: cover;
+	background-image: radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(../images/background-img.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.navbar {
+	padding-top: 1%;
+	padding-left: 2vw;
+	padding-right: 3vw;
+	height: 15vh;
+	display: flex;
+	flex-direction:  row;
+	justify-content: space-between;
+	alight-items: center;
+}
+
+.img-logo {
+	width:  14%;
+	color: #e50914;
+}
+
+.btn-sign-in {
+	padding: 8px 20px 8px 20px;
+	margin: auto 0;
+	border-radius:  5px;
+	background-color:  #e50914;
+	color: white;
+	cursor:  pointer;
+	width: fit-content;
+	height: fit-content;
+	font-size: 1.1em;
+	font-family:  Arial, Helvetica, sans-serif;
+}
+
+/*.main-main-container{
+	margin-bottom: 100px;
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:  center;
+}*/
+.main-container {
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-titles-container {
+	width: 44%;
+	text-align: center;
+	color: white;
+	margin-bottom: 5px;
+}
+
+.main-title {
+	font-family: netflix-sans-regular;
+	font-size: 4em;
+	margin-bottom: 14px;
+	line-height: 1.1;
+}
+
+.main-subtitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	margin-bottom: 5vh;
+}
+
+.main-call-to-action {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+}
+
+.main-email-container {
+	margin-bottom: 100px;
+	width: 49%;
+	height: 10vh;
+	background-color: #ffffff;
+	display:  flex;
+	flex-direction:  row;
+	justify-content: space-between;
+	alight-items: center;
+}
+
+.main-email-container-input {
+	outline: none;
+	border: none;
+	padding: 20px 10px;
+	font-size: 1em;
+	text-align: left;
+	font-family: netflix-sans-regular;
+}
+
+.btn-get-started {
+	padding: 16px 32px 0px 32px;
+	cursor: pointer;
+	font-family: netflix-sans-regular;
+	color: white;
+	background-color: #e50914;
+	font-size: 1.8em;
+	text-align: center;
+}
+
+.btn-get-started:hover {
+	background-color: #ff0b18;
+}
